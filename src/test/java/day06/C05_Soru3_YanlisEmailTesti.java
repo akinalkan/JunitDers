@@ -31,7 +31,7 @@ public class C05_Soru3_YanlisEmailTesti {
     }
     @After
     public void tearDown(){
-        //driver.close();
+        driver.close();
     }
     @Test
     public void test(){
